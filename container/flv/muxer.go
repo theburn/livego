@@ -2,11 +2,11 @@ package flv
 
 import (
 	"flag"
-	"github.com/livego/av"
-	log "github.com/livego/logging"
-	"github.com/livego/protocol/amf"
-	"github.com/livego/utils/pio"
-	"github.com/livego/utils/uid"
+	"github.com/theburn/livego/av"
+	log "github.com/theburn/livego/logging"
+	"github.com/theburn/livego/protocol/amf"
+	"github.com/theburn/livego/utils/pio"
+	"github.com/theburn/livego/utils/uid"
 	"os"
 	"strings"
 	"time"

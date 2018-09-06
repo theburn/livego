@@ -3,7 +3,7 @@ package httpflvclient
 import (
 	"errors"
 	"fmt"
-	log "github.com/livego/logging"
+	log "github.com/theburn/livego/logging"
 	"net"
 	"os"
 	"strconv"

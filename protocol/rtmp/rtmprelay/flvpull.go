@@ -3,10 +3,10 @@ package rtmprelay
 import (
 	"errors"
 	"fmt"
-	"github.com/livego/av"
-	log "github.com/livego/logging"
-	"github.com/livego/protocol/httpflvclient"
-	"github.com/livego/protocol/rtmp/core"
+	"github.com/theburn/livego/av"
+	log "github.com/theburn/livego/logging"
+	"github.com/theburn/livego/protocol/httpflvclient"
+	"github.com/theburn/livego/protocol/rtmp/core"
 	"time"
 )
 

@@ -5,10 +5,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/livego/av"
-	"github.com/livego/configure"
-	log "github.com/livego/logging"
-	"github.com/livego/protocol/amf"
+	"github.com/theburn/livego/av"
+	"github.com/theburn/livego/configure"
+	log "github.com/theburn/livego/logging"
+	"github.com/theburn/livego/protocol/amf"
 )
 
 var (

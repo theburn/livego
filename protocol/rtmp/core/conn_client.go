@@ -10,9 +10,9 @@ import (
 	neturl "net/url"
 	"strings"
 
-	"github.com/livego/av"
-	log "github.com/livego/logging"
-	"github.com/livego/protocol/amf"
+	"github.com/theburn/livego/av"
+	log "github.com/theburn/livego/logging"
+	"github.com/theburn/livego/protocol/amf"
 )
 
 var (

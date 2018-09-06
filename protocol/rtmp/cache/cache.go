@@ -2,7 +2,7 @@ package cache
 
 import (
 	"flag"
-	"github.com/livego/av"
+	"github.com/theburn/livego/av"
 )
 
 var (

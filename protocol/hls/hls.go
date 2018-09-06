@@ -3,9 +3,9 @@ package hls
 import (
 	"errors"
 	"fmt"
-	"github.com/livego/av"
-	"github.com/livego/concurrent-map"
-	log "github.com/livego/logging"
+	"github.com/theburn/livego/av"
+	"github.com/theburn/livego/concurrent-map"
+	log "github.com/theburn/livego/logging"
 	"net"
 	"net/http"
 	"path"

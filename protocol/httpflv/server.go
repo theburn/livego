@@ -2,9 +2,9 @@ package httpflv
 
 import (
 	"encoding/json"
-	"github.com/livego/av"
-	log "github.com/livego/logging"
-	"github.com/livego/protocol/rtmp"
+	"github.com/theburn/livego/av"
+	log "github.com/theburn/livego/logging"
+	"github.com/theburn/livego/protocol/rtmp"
 	"net"
 	"net/http"
 	"strings"

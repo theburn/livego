@@ -2,10 +2,10 @@ package parser
 
 import (
 	"errors"
-	"github.com/livego/av"
-	"github.com/livego/parser/aac"
-	"github.com/livego/parser/h264"
-	"github.com/livego/parser/mp3"
+	"github.com/theburn/livego/av"
+	"github.com/theburn/livego/parser/aac"
+	"github.com/theburn/livego/parser/h264"
+	"github.com/theburn/livego/parser/mp3"
 	"io"
 )
 

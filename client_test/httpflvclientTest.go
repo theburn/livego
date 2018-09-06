@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/livego/protocol/rtmp/rtmprelay"
 	"log"
 	"time"
+
+	"github.com/theburn/livego/protocol/rtmp/rtmprelay"
 )
 
 /*

@@ -2,10 +2,11 @@ package core
 
 import (
 	"bytes"
-	"github.com/livego/utils/pool"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/theburn/livego/utils/pool"
 )
 
 func TestConnReadNormal(t *testing.T) {
@@ -176,7 +177,7 @@ func TestSetChunksize(t *testing.T) {
 
 	//设置chunksize
 	chunkBuf := []byte{0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x04, 0x01, 0x00, 0x00, 0x00, 0x00,
-			   0x00, 0x00, 0x00, 0x96}
+		0x00, 0x00, 0x00, 0x96}
 	conn.rw = NewReadWriter(bytes.NewBuffer(chunkBuf), 1024)
 	err = conn.Read(&c)
 	at.Equal(err, nil)

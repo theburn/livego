@@ -2,8 +2,8 @@ package core
 
 import (
 	"encoding/binary"
-	"github.com/livego/utils/pio"
-	"github.com/livego/utils/pool"
+	"github.com/theburn/livego/utils/pio"
+	"github.com/theburn/livego/utils/pool"
 	"net"
 	"time"
 )

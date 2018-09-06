@@ -1,7 +1,7 @@
 package ts
 
 import (
-	"github.com/livego/av"
+	"github.com/theburn/livego/av"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

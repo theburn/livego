@@ -3,7 +3,7 @@ package configure
 import (
 	"encoding/json"
 	"fmt"
-	log "github.com/livego/logging"
+	log "github.com/theburn/livego/logging"
 	"io/ioutil"
 	"strings"
 )

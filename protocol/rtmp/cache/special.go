@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"log"
 
-	"github.com/livego/av"
-	"github.com/livego/protocol/amf"
+	"github.com/theburn/livego/av"
+	"github.com/theburn/livego/protocol/amf"
 )
 
 const (
