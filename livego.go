@@ -6,6 +6,7 @@ import (
 	"net"
 	"time"
 
+	"github.com/theburn/livego/concurrent-map"
 	"github.com/theburn/livego/configure"
 	log "github.com/theburn/livego/logging"
 	"github.com/theburn/livego/protocol/hls"
