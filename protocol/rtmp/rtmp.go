@@ -4,19 +4,21 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+
 	"github.com/theburn/livego/av"
 	"github.com/theburn/livego/configure"
 	"github.com/theburn/livego/container/flv"
 	"github.com/theburn/livego/protocol/rtmp/core"
 	//"github.com/theburn/livego/protocol/rtmp/rtmprelay"
-	log "github.com/theburn/livego/logging"
-	"github.com/theburn/livego/utils/uid"
 	"net"
 	"net/url"
 	"os/exec"
 	"reflect"
 	"strings"
 	"time"
+
+	log "github.com/theburn/livego/logging"
+	"github.com/theburn/livego/utils/uid"
 )
 
 const (
@@ -115,6 +117,10 @@ func (s *Server) ExecPush(key string) {
 	}
 }
 
+func validateAuth(url string) {
+	//TODO
+}
+
 func (s *Server) handleConn(conn *core.Conn) error {
 	if err := conn.HandshakeServer(); err != nil {
 		conn.Close()
@@ -130,6 +136,7 @@ func (s *Server) handleConn(conn *core.Conn) error {
 	}
 
 	appname, name, url, remoteconn := connServer.GetInfo()
+
 	log.Infof("handleConn: appname=%s, name=%s, url=%s, peerIP=%s", appname, name, url, remoteconn.RemoteAddr().String())
 
 	log.Infof("handleConn: IsPublisher=%v", connServer.IsPublisher())
